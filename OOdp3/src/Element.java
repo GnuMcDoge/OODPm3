@@ -1,3 +1,4 @@
+import java.util.List;
 
 public interface Element {
 	
@@ -8,5 +9,7 @@ public interface Element {
 	public String getText();
 	
 	public void accept(); 
+	
+	public List<Element> getListOfElements();
 
 }

@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class Header implements Element {
 
@@ -28,6 +29,13 @@ public class Header implements Element {
 	public void accept() {
 		// TODO Auto-generated method stub
 		
+	}
+
+
+	@Override
+	public List<Element> getListOfElements() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

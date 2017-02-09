@@ -1,20 +1,23 @@
-
-public class ElementFactory {
+public class ElementFactory  implements ElementFactoryInterface{
 
 	
-	public Element addHeader(String text){
+	public Header addHeader(String header){
 		
-		return new Header(text);
+		return new Header(header);
 	
 	}
 	
-	public Element addParagraph(String text){
+	public Paragraph addParagraph(String paragraph){
 		
-		return new Paragraph(text);
+		return new Paragraph(paragraph);
 	}
 	
-	public Element addBulletList(){
+	public BulletList addBulletList(){
 		
 		return new BulletList();
 	}
+
+	
+
 }
+
